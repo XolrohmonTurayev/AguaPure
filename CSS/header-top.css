@@ -1,0 +1,92 @@
+.dim {
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.3;
+}
+
+.header__top {
+    margin: 0 auto;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 10px;
+    gap: 120px;
+}
+
+.main__title {
+    margin-right: 15px;
+}
+
+.header-top_left-side,
+.header-top_right-side {
+    display: flex;
+}
+
+.phone-icon,
+.clock-icon {
+    margin-right: 8px;
+}
+
+.left-side-icons,
+.select-service {
+    margin-inline: 12px;
+}
+
+.select-service,
+.email__link,
+.main__title,
+.phone__number,
+.working-days {
+    color: #fff;
+    font-family: var(--Laila);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.fake__hr {
+    width: 1.5px;
+    height: 20px;
+    background-color: #fff;
+    opacity: 0.2;
+    margin-inline: 15px;
+}
+
+#services__location,
+#navigation__selectors {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#services__location {
+    font-family: var(--Laila);
+}
+
+.mini__header-top {
+    text-align: center;
+    padding-block: 5px;
+    display: none;
+    background-color: var(--primary);
+
+}
+
+.mini__header-top__selection {
+    background-color: var(--primary);
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    font-family: var(--Laila);
+    font-size: 1rem;
+}
+
+.mini__header-top__info {
+    display: flex;
+    justify-content: space-around;
+}

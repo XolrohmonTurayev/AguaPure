@@ -1,0 +1,167 @@
+.main__header,
+.mini__header {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 40px;
+    max-width: 1250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav-link {
+    font-family: var(--beVietnamPro);
+    font-size: 15px;
+    color: black;
+}
+
+.header-nav-link:hover {
+    color: var(--secondary);
+}
+
+.selectioned__nav {
+    display: none;
+}
+
+#navigation__selectors {
+    padding: 3px;
+    font-family: var(--beVietnamPro);
+}
+
+.search__btn {
+    border: none;
+    border-radius: 50%;
+    padding: 10.5px 13px;
+    background-color: var(--primary);
+    margin-left: 20px;
+}
+
+.search__btn:hover,
+.carteds__btn:hover,
+.ordering-btn:hover {
+    cursor: pointer;
+}
+
+.carteds__btn {
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.main-header-fake-hr {
+    background-color: black;
+    opacity: 0.2;
+    width: 1.5px;
+    height: 42px;
+}
+
+.burger-menu-icon {
+    display: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    padding: 10px 10px;
+}
+
+.burger-menu-items {
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.second {
+    margin-block: 7px;
+}
+
+.burger-menu {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary);
+    transform: translateX(-100%);
+}
+
+.burger-menu nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.ordering-btn,
+.burger-menu_button {
+    border: none;
+    border-radius: 25px;
+    padding: 17px 45px;
+    margin: 0 auto;
+    background-color: var(--secondary);
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.burger-menu_button {
+    margin-block: 30px;
+    border: 3px solid var(--primary);
+}
+
+.header-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.burger-menu-links {
+    font-family: var(--Laila);
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.ordering-btn_shadow {
+    position: absolute;
+    background-color: #5DBCDF;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    top: -40%;
+    right: -11%;
+}
+
+.main-header-bottom-line {
+    margin: 0 auto;
+    height: 10px;
+    width: 1000px;
+    background-color: var(--secondary);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mini__header {
+    display: none;
+}
+
+.tablet__header {
+    display: none;
+}
+
+.tablet__navbar {
+    padding-block: 20px;
+    display: flex;
+    gap: 25px;
+}

@@ -1,0 +1,26 @@
+:root {
+    --primary: #004DA1;
+    --secondary: #65CEF5;
+    --beVietnamPro: "Be Vietnam Pro";
+    --Laila: "Laila";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper {
+    background-image: url(../assets/images/banner-img.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
