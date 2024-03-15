@@ -68,6 +68,12 @@
     }
 }
 
+@media (min-width: 993px) {
+    .burger-menu {
+        transform: translateX(-100%);
+    }
+}
+
 @media (max-width: 646px) {
     .header__top,
     .fake__hr {
@@ -95,7 +101,7 @@
         align-items: center;
     }
 
-    .search__btn {
+    .search-btn {
         margin-left: 10px;
     }
 }

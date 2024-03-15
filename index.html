@@ -73,6 +73,7 @@
     </div>
     <div class="wrapper">
         <div class="burger-menu" id="burger-menu">
+            <button class="close-button" id="close-button">Close</button>
             <button class="burger-menu_button">
                 <div class="ordering-btn_shadow"></div>
                 <p>Order now</p>
@@ -101,7 +102,7 @@
                         <a href="#" class="header-nav-link">Pages</a>
                         <a href="#" class="header-nav-link">Contact</a>
                     </nav>
-                    <button class="search__btn">
+                    <button class="search-btn" id="search-button">
                         <img src="./assets/icons/search-icon.svg" alt="Search">
                     </button>
                     <div class="main-header-fake-hr"></div>
@@ -138,7 +139,7 @@
                             </option>
                         </select>
                     </nav>
-                    <button class="search__btn">
+                    <button class="search-btn" id="search-button">
                         <img src="./assets/icons/search-icon.svg" alt="Search">
                     </button>
                     <div class="main-header-fake-hr"></div>
@@ -160,7 +161,7 @@
                         <img src="./assets/icons/site-logo.svg" alt="Logotip of our Site">
                     </a>
                     <div class="tablet__navbar">
-                        <button class="search__btn">
+                        <button class="search-btn" id="search-button">
                             <img src="./assets/icons/search-icon.svg" alt="Search">
                         </button>
                         <div class="main-header-fake-hr"></div>
@@ -174,6 +175,12 @@
                 <div class="main-header-bottom-line"></div>
             </div>
         </header>
+        <div class="search-modal" id="search-modal">
+            <form action="">
+                <input type="search" placeholder="Search..." class="search-input">
+                <button class="search-button">Search</button>
+            </form>
+        </div>
     </div>
     <script src="./app.js"></script>
 </body>
