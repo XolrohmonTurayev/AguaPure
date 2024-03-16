@@ -37,66 +37,86 @@
     }
 }
 
-@media (max-width: 1055px) {
-    
+@media (max-width: 1056px) {
+    .header__nav {
+        display: none;
+    }
+
+    .nav__1055 {
+        display: block;
+    }
 }
 
 @media (max-width: 994px) {
     .header__nav {
         display: none;
     }
+}
+
+@media (max-width: 727px) {
+    .main__header {
+        gap: 17px;
+    }
+
+    .ordering-btn_shadow {
+        display: none;
+    }
+
+    .ordering-btn {
+        padding: 17px 25px;
+    }
+}
+
+@media (max-width: 651px) {
+    .main__header {
+        justify-content: space-between;
+    }
 
     .burger-menu-icon {
-        display: block;
-    }
-
-    .mini__header {
-        display: none;
-    }
-
-    .tablet__header {
-        border-radius: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: white;
-    }
-}
-
-@media (min-width: 993px) {
-    .burger-menu {
-        transform: translateX(-100%);
-    }
-}
-
-@media (max-width: 646px) {
-    .header__top,
-    .fake__hr {
-        display: none;
-    }
-
-    .mini__header-top {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .non-visibles,
+    .fake__hr,
+    .nav__1055,
+    .carteds__btn,
+    .ordering-btn {
+        display: none;
+    }
+
+    .main__title {
+        margin-right: 0;
+    }
+
+    .header-top_left-side,
+    .header-top_right-side {
+        gap: 10px;
+    }
+
+    .ordering-btn {
+        padding: 14px 20px;
+        font-size: 12px;
     }
 
     .burger-menu {
         width: 100%;
     }
+
+    .search-modal {
+        max-width: 320px;
+    }
 }
 
-@media (max-width: 380px) {
-    .main__title,
-    .working-days {
-        font-size: 13px;
+@media (max-width: 471px) {
+    .main__header {
+        gap: 10px;
+        justify-content: space-between;
     }
 
-    .mini__header-top-info {
-        display: flex;
-        align-items: center;
-    }
-
-    .search-btn {
-        margin-left: 10px;
+    .header-navbar {
+        gap: 20px;
+        justify-content: space-between;
     }
 }
