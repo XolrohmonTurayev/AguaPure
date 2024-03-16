@@ -44,33 +44,6 @@
             </select>
         </div>
     </div>
-    <div class="mini__header-top">
-        <div class="mini__header-top__info">
-            <p class="main__title">Immediate Delivery</p>
-            <span class="working-days-info">
-                <img class="clock-icon" src="./assets/icons/clock-icon.svg" alt="working-days of our company">
-                <span class="working-days">Mon - Fri: 08.00 to 08.00</span>
-            </span>
-        </div>
-        <select name="" id="" class="mini__header-top__selection">
-            <option value="">
-                <a href="tel: 1-800-500-333-33" class="phone__number">
-                    <img class="phone-icon" src="./assets/icons/phone-icon.svg" alt="Call center number">
-                    1-800-500-333-33
-                </a>
-            </option>
-            <option value="">
-                <a href="#" class="email__link">
-                    <img class="left-side-icons" src="./assets/icons/mail-icon.svg"
-                        alt="send your email, if you have an idea">
-                    Enquire? Send Your Mail
-                </a>
-            </option>
-            <option value="">
-                <a href="#" class="header-top_selectioned-service-area">Service area</a>
-            </option>
-        </select>
-    </div>
     <div class="wrapper">
         <div class="burger-menu" id="burger-menu">
             <button class="close-button" id="close-button">Close</button>
@@ -102,6 +75,14 @@
                         <a href="#" class="header-nav-link">Pages</a>
                         <a href="#" class="header-nav-link">Contact</a>
                     </nav>
+                    <select name="" id="">
+                        <option value="">Home</option>
+                        <option value="">Services</option>
+                        <option value="">Products</option>
+                        <option value="">Blog</option>
+                        <option value="">Pages</option>
+                        <option value="">Contact</option>
+                    </select>
                     <button class="search-btn" id="search-button">
                         <img src="./assets/icons/search-icon.svg" alt="Search">
                     </button>
@@ -119,66 +100,12 @@
                         <p>Order now</p>
                     </button>
                 </div>
-                <div class="mini__header">
-                    <a href="#">
-                        <img src="./assets/icons/site-logo.svg" alt="Logotip of our Site">
-                    </a>
-                    <nav class="selectioned__nav">
-                        <a href="#" class="header-nav-link">Home</a>
-                        <a href="#" class="header-nav-link">Products</a>
-                        <a href="#" class="header-nav-link">Contact</a>
-                        <select name="" id="navigation__selectors">
-                            <option value="services">
-                                <a href="#" class="header-nav-link">Services</a>
-                            </option>
-                            <option value="blog">
-                                <a href="#" class="header-nav-link">Blog</a>
-                            </option>
-                            <option value="pages">
-                                <a href="#" class="header-nav-link">Pages</a>
-                            </option>
-                        </select>
-                    </nav>
-                    <button class="search-btn" id="search-button">
-                        <img src="./assets/icons/search-icon.svg" alt="Search">
-                    </button>
-                    <div class="main-header-fake-hr"></div>
-                    <div class="burger-menu-icon">
-                        <div class="burger-menu-items"></div>
-                        <div class="burger-menu-items second"></div>
-                        <div class="burger-menu-items"></div>
-                    </div>
-                    <button class="carteds__btn">
-                        <img src="./assets/icons/carteds-icon.svg" alt="Carted Products">
-                    </button>
-                    <button class="ordering-btn">
-                        <div class="ordering-btn_shadow"></div>
-                        <p>Order now</p>
-                    </button>
-                </div>
-                <div class="tablet__header">
-                    <a href="#">
-                        <img src="./assets/icons/site-logo.svg" alt="Logotip of our Site">
-                    </a>
-                    <div class="tablet__navbar">
-                        <button class="search-btn" id="search-button">
-                            <img src="./assets/icons/search-icon.svg" alt="Search">
-                        </button>
-                        <div class="main-header-fake-hr"></div>
-                        <div class="burger-menu-icon" id="burger-menu-icon">
-                            <div class="burger-menu-items"></div>
-                            <div class="burger-menu-items second"></div>
-                            <div class="burger-menu-items"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="main-header-bottom-line"></div>
-            </div>
         </header>
         <div class="search-modal" id="search-modal">
+            <button class="close-modal" id="close-modal">Close</button>
             <form action="">
                 <input type="search" placeholder="Search..." class="search-input">
-                <button class="search-button">Search</button>
+                <button type="button" class="search-button">Search</button>
             </form>
         </div>
     </div>
