@@ -206,7 +206,7 @@
     margin-top: 30px;
     margin-inline: auto;
     text-align: center;
-    transform: translateY(-400%);
+    transform: translateY(-200%);
     overflow: hidden;
     box-shadow: 10px 10px 10px  var(--secondary);
 }

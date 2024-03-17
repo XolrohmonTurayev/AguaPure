@@ -16,10 +16,9 @@
     background-image: url(../assets/images/banner-img.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 900px;
-    position: relative;
-    object-fit: contain;
+    height: 826px;
     text-align: center;
+    overflow: hidden;
 }
 
 .container {
