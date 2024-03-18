@@ -1,0 +1,120 @@
+.services-info-wrapper {
+    background-image: url(../assets/images/service-bg-img.png);
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.services-info {
+    padding-top: 110px;
+}
+
+.services-subtitle {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.services-main-title {
+    margin: 0 auto;
+    max-width: 700px;
+    font-family: var(--Laila);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-block: 10px;
+}
+
+.service-content {
+    gap: 50px;
+    transform: translateY(-150px);
+}
+
+.service-card {
+    background-image: url(../assets/images/card-background.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 370px;
+    padding: 34px;
+    box-shadow: 1px 1px 5px 5px #DAE3E9;
+    border-radius: 10px;
+}
+
+.service-card_image {
+    border: 12px solid white;
+    border-radius: 50%;
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    margin-top: 40px;
+}
+
+.border-transparent {
+    margin: 0 auto;
+    width: 75px;
+    border: 1px solid #DAE3E9;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 10px;
+    transform: translateY(-50px);
+}
+
+.icon-wrapper {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.card__title {
+    font-family: var(--Laila);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card__text {
+    font-family: var(--beVietnamPro);
+    font-size: 16px;
+    font-weight: 400;
+    color: #585858;
+    margin-top: 7px;
+    margin-bottom: 24px;
+}
+
+.card__link {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-block: 34px;
+}
+
+.service-btn {
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    border: none;
+    border-radius: 28px;
+    padding: 17px 45px;
+    background-color: var(--primary);
+    overflow: hidden;
+    display: block;
+}
+
+.service-btn p {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.service-btn div {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #266DB9;
+    position: absolute;
+    top: -40%;
+    right: -11%;
+}

@@ -203,7 +203,7 @@
     height: 140px;
     background-color: white;
     top: 100px;
-    margin-top: 30px;
+    margin-block: 15px;
     margin-inline: auto;
     text-align: center;
     transform: translateY(-200%);

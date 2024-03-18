@@ -1,0 +1,14 @@
+.statistics-content {
+    background-color: var(--primary);
+    padding: 30px;
+    gap: 30px;
+}
+
+.statistics-info {
+    color: white;
+    font-family: var(--Laila);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

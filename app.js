@@ -30,15 +30,12 @@ closeButton.addEventListener("click", () => {
 });
 
 //Searching modal settings!
-
-
-
 searchButton.addEventListener("click", () => {
     searchModal.style.transform = "translateY(0)";
 });
 //close Modal
 closeModal.addEventListener("click", () => {
-    searchModal.style.transform = "translateY(-400%)";
+    searchModal.style.transform = "translateY(-200%)";
 })
 
 //Transition!
