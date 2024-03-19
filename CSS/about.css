@@ -1,0 +1,125 @@
+.about-content {
+    margin-top: 120px;
+    gap: 58px;
+}
+
+.about-subtitle {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.about-main-title {
+    font-family: var(--Laila);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.about-certificate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #DAE5EC;
+    border-radius: 10px;
+    padding: 27px;
+}
+
+.about-fake-hr {
+    width: 1px;
+    height: 120px;
+    background-color: #DAE5EC;
+}
+
+.about-certificate-info-wrapper {
+    width: 260px;
+}
+
+.about-certificate-info-wrapper h4 {
+    font-family: var(--Laila);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-certificate-info-wrapper p {
+    font-family: var(--beVietnamPro);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-company {
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-company_button-box {
+    display: flex;
+    gap: 10px;
+}
+
+.about-company-btn {
+    border: none;
+    padding-block: 21px;
+    padding-left: 30px;
+    padding-right: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-family: var(--Laila);
+    background-color: white;
+    color: #98A1A7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #DAE5EC;
+}
+
+.about-company-btn:hover {
+    background-color: var(--secondary);
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.about-company-btn h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-company-btn p {
+    width: 120px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-company-main-img {
+    max-width: 1100px;
+}
+
+.about-company_pop-up {
+    background-color: white;
+    padding: 52px;
+    width: 370px;
+    border-radius: 10px;
+    transform: translateX(180%) translateY(-420px);
+}
+
+.about-company_pop-up h3 {
+    font-family: var(--Laila);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-company_pop-up p {
+    font-family: var(--beVietnamPro);
+    font-size: 16px;
+    font-weight: 400;
+    color: #585858;
+    margin-block: 33px;
+}
