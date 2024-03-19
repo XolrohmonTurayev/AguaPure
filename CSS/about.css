@@ -50,11 +50,15 @@
 }
 
 .about-company {
-    width: min-content;
+    max-width: 1100px;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    background-image: url(../assets/images/about-company-pattern-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .about-company_button-box {
@@ -98,7 +102,7 @@
 }
 
 .about-company-main-img {
-    max-width: 1100px;
+    max-width: 1050px;
 }
 
 .about-company_pop-up {
@@ -106,7 +110,9 @@
     padding: 52px;
     width: 370px;
     border-radius: 10px;
-    transform: translateX(180%) translateY(-420px);
+    position: absolute;
+    top: 140px;
+    right: 80px;
 }
 
 .about-company_pop-up h3 {
@@ -122,4 +128,10 @@
     font-weight: 400;
     color: #585858;
     margin-block: 33px;
+}
+
+.about-company-ice-img {
+    display: block;
+    margin-left: 51rem;
+    transform: translateY(-70px);
 }
