@@ -1,0 +1,112 @@
+.about-water-info {
+    gap: 30px;
+}
+
+.about-water-wrapper {
+    background-image: url(../assets/images/water-on-a-glass.jpg);
+    width: 915px;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+}
+
+.about-water {
+    text-align: left;
+    margin-block: 110px;
+    margin-right: 72px;
+}
+
+.about-water-subtitle {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+.about-water-title {
+    font-family: var(--Laila);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-block: 11px;
+}
+
+.about-water-text {
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--textColor);
+    margin-block: 32px;
+}
+
+.about-water_list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-water_list-item p {
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-block: 5px;
+}
+
+.about-water-button {
+    position: relative;
+    border: none;
+    border-radius: 29px;
+    background-color: var(--secondary);
+    padding: 17px 45px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.about-water-button p {
+    font-family: var(--Laila);
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.about-water-button_shadow {
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    width: 55px;
+    height: 55px;
+    background-color: #5DBCDF;
+    border-radius: 50%;
+}
+
+.water-health-wrapper {
+    border-radius: 20px;
+    background-image: url(../assets/images/suv-ichayotgan-qiz.jpg);
+    background-repeat: no-repeat;
+    padding: 38px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.water-health-wrapper h2 {
+    font-family: var(--Laila);
+    font-size: 30px;
+    font-weight: 700;
+    width: 275px;
+}
+
+.water-health-wrapper p {
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 346px;
+}
+
+.water-health-wrapper img {
+    margin-bottom: 368px;
+}
