@@ -11,8 +11,9 @@
 .water-bottle-img {
     z-index: -1;
     position: absolute;
-    top: -120px;
-    right: 0;
+    width: 720px;
+    top: 40px;
+    right: 50px;
 }
 
 .event-wrapper {
@@ -66,4 +67,12 @@
 
 .second {
     transform: translateX(10%) translateY(-90%);
+}
+
+.aosed-div {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: white;
+    display: none;
 }

@@ -9,6 +9,10 @@
         width: 100%;
         padding: 20px;
     }
+
+    .statistics-info p {
+        width: 100px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -29,11 +33,33 @@
         border-radius: 0;
         width: 100%;
     }
+
+    .statistics-content {
+        gap: 15px;
+    }
 }
 
 @media (max-width: 1185px) {
     .main-header-fake-hr {
         display: none;
+    }
+
+    .statistics-content {
+        flex-wrap: wrap;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1120px) {
+    .about-company_button-box {
+        justify-content: center;
     }
 }
 
@@ -45,11 +71,50 @@
     .nav__1055 {
         display: block;
     }
+
+    .about-company {
+        background-image: none !important;
+    }
+
+    .about-company-main-img {
+        width: 100%;
+        border-radius: 0 !important;
+    }
+
+    .about-company_pop-up {
+        top: 100px !important;
+        right: 0 !important;
+        margin: 20px !important;
+        padding: 30px !important;
+    }
 }
 
 @media (max-width: 994px) {
     .header__nav {
         display: none;
+    }
+
+    .service-content {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .about-company_pop-up h3 {
+        margin-bottom: 5px !important;
+    }
+
+    .about-company_pop-up p {
+        margin-block: 10px !important;
+    }
+}
+
+@media (max-width: 840px) {
+    .water-bottle-img {
+        width: 700px;
+    }
+
+    .event-wrapper {
+        top: 3%;
     }
 }
 
@@ -68,6 +133,10 @@
 }
 
 @media (max-width: 651px) {
+    .wrapper {
+        height: 300px;
+    }
+
     .main__header {
         justify-content: space-between;
     }
@@ -107,6 +176,26 @@
     .search-modal {
         max-width: 320px;
     }
+
+    .img-wrapper {
+
+        display: none;
+    }
+
+    .services-main-title {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .services-main-title {
+        width: 380px;
+        font-size: 30px;
+    }
+
+    .title-picture {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 471px) {
@@ -118,5 +207,9 @@
     .header-navbar {
         gap: 20px;
         justify-content: space-between;
+    }
+
+    .services-main-title {
+        font-size: 30px;
     }
 }

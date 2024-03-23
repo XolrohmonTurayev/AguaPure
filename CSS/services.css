@@ -22,13 +22,14 @@
     font-family: var(--Laila);
     font-size: 48px;
     font-weight: 700;
-    line-height: 57.6px;
+    line-height: 47px;
     margin-block: 10px;
 }
 
 .service-content {
     gap: 50px;
     transform: translateY(-150px);
+    margin-inline: 30px;
 }
 
 .service-card {

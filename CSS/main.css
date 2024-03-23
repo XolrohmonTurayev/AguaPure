@@ -2,8 +2,8 @@
     --primary: #004DA1;
     --secondary: #65CEF5;
     --textColor: #585858;
-    --beVietnamPro: "Be Vietnam Pro";
-    --Laila: "Laila";
+    --beVietnamPro: "Be Vietnam Pro", sans-serif;
+    --Laila: "Laila", monospace;
 }
 
 * {
