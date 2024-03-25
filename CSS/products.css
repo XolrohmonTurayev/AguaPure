@@ -59,3 +59,120 @@
     font-weight: 700;
     line-height: 58px;
 }
+
+/* swiper CSS */
+
+.swiper {
+    width: 90%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card-img-wrapper {
+    margin: 20px;
+    padding: 60px;
+    border: 1px solid #DAE5EC;
+    border-radius: 10px;
+}
+
+.form-wrapper {
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid #DAE5EC;
+    background-color: #ECF2F6;
+}
+
+.quantity-input-wrapper {
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.quantity-input {
+    border: none;
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 500;
+    width: 50px;
+    padding: 5px;
+    background-color: #ECF2F6;
+}
+
+#price {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 6px;
+    font-family: var(--Laila);
+    color: var(--secondary);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quantity-input:focus-visible {
+    outline: none;
+}
+
+.product-card-info h4 {
+    font-family: var(--Laila);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.xizmat-turi {
+    font-family: var(--beVietnamPro);
+    line-height: 19px;
+    font-size: 15px;
+    color: #98A1A7;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.xizmat-kunlari {
+    font-family: var(--beVietnamPro);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.add-to-cart-button {
+    position: relative;
+    border: none;
+    border-radius: 40px;
+    padding: 17px 45px;
+    font-family: var(--Laila);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    background-color: var(--primary);
+    overflow: hidden;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.add-to-cart-button_shadow {
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #266DB9;
+}

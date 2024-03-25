@@ -51,10 +51,6 @@
     .about-content {
         flex-direction: column;
     }
-
-    .about-container {
-        justify-content: center;
-    }
 }
 
 @media (max-width: 1120px) {
@@ -130,6 +126,10 @@
     .ordering-btn {
         padding: 17px 25px;
     }
+
+    .about-company_pop-up {
+        opacity: 0;
+    }
 }
 
 @media (max-width: 651px) {
@@ -184,6 +184,10 @@
 
     .services-main-title {
         width: 500px;
+    }
+
+    .about-company-btn {
+        padding: 15px 20px !important;
     }
 }
 

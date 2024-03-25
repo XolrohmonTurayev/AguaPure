@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./CSS/products.css">
     <link rel="stylesheet" href="./CSS/whyus.css">
     <link rel="stylesheet" href="./CSS/about-water.css">
+    <!-- swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>AguaPure</title>
 </head>
 
@@ -258,7 +260,7 @@
                 </div>
                 <div class="about-company_img-wrapper">
                     <img class="about-company-main-img" src="./assets/images/about-company-main-img.jpg" alt="">
-                    <div class="about-company_pop-up">
+                    <div class="about-company_pop-up" id="massage-pop-up">
                         <h3>Family Owned & Operated for 30 Years</h3>
                         <img src="./assets/icons/title-picture.svg" alt="">
                         <p>
@@ -271,11 +273,11 @@
                         </a>
                     </div>
                 </div>
-                <button class="view-massages">view massages</button>
+                <button class="view-massages" id="view-massages">view massages</button>
             </div>
         </div>
     </section>
-    <!-- <section class="products">
+    <section class="products">
         <div class="container">
             <div class="products-img-wrapper">
                 <img src="./assets/images/about-company-water-bottle-img.png" alt="">
@@ -293,9 +295,119 @@
                 <h2>Delivered fresh to your door by our team.</h2>
                 <img src="./assets/icons/title-picture.svg" alt="">
             </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="product-card-img-wrapper">
+                            <img src="./assets/images/2ltr.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="form-wrapper">
+                                <span class="quantity-input-wrapper">
+                                    Quantity:
+                                    <input type="number" class="quantity-input" id="quantity-input" value="1">
+                                </span>
+                                <span id="price"></span>
+                            </div>
+                            <h4>2 Ltr Bottled Water</h4>
+                            <p class="xizmat-turi">Delivery</p>
+                            <p class="xizmat-kunlari">Tom 4:30pm - 6:30pm</p>
+                            <button class="add-to-cart-button">
+                                add to cart
+                                <div class="add-to-cart-button_shadow"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="product-card-img-wrapper">
+                            <img src="./assets/images/2ltr.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="form-wrapper">
+                                <span class="quantity-input-wrapper">
+                                    Quantity:
+                                    <input type="number" class="quantity-input" value="1">
+                                </span>
+                                <span id="price">$12.50</span>
+                            </div>
+                            <h4>2 Ltr Bottled Water</h4>
+                            <p class="xizmat-turi">Delivery</p>
+                            <p class="xizmat-kunlari">Tom 4:30pm - 6:30pm</p>
+                            <button class="add-to-cart-button">
+                                add to cart
+                                <div class="add-to-cart-button_shadow"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-card-img-wrapper">
+                            <img src="./assets/images/2ltr.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="form-wrapper">
+                                <span class="quantity-input-wrapper">
+                                    Quantity:
+                                    <input type="number" class="quantity-input" value="1">
+                                </span>
+                                <span id="price">$12.50</span>
+                            </div>
+                            <h4>2 Ltr Bottled Water</h4>
+                            <p class="xizmat-turi">Delivery</p>
+                            <p class="xizmat-kunlari">Tom 4:30pm - 6:30pm</p>
+                            <button class="add-to-cart-button">
+                                add to cart
+                                <div class="add-to-cart-button_shadow"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-card-img-wrapper">
+                            <img src="./assets/images/2ltr.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="form-wrapper">
+                                <span class="quantity-input-wrapper">
+                                    Quantity:
+                                    <input type="number" class="quantity-input" value="1">
+                                </span>
+                                <span id="price">$12.50</span>
+                            </div>
+                            <h4>2 Ltr Bottled Water</h4>
+                            <p class="xizmat-turi">Delivery</p>
+                            <p class="xizmat-kunlari">Tom 4:30pm - 6:30pm</p>
+                            <button class="add-to-cart-button">
+                                add to cart
+                                <div class="add-to-cart-button_shadow"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product-card-img-wrapper">
+                            <img src="./assets/images/2ltr.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="form-wrapper">
+                                <span class="quantity-input-wrapper">
+                                    Quantity:
+                                    <input type="number" class="quantity-input" value="1">
+                                </span>
+                                <span id="price">$12.50</span>
+                            </div>
+                            <h4>2 Ltr Bottled Water</h4>
+                            <p class="xizmat-turi">Delivery</p>
+                            <p class="xizmat-kunlari">Tom 4:30pm - 6:30pm</p>
+                            <button class="add-to-cart-button">
+                                add to cart
+                                <div class="add-to-cart-button_shadow"></div>
+                            </button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <div class="container">
             <div class="whyus-content">
                 <img src="./assets/images/whyus-bottle-delivery.jpg" alt="">
@@ -415,6 +527,7 @@
             </div>
         </div>
     </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./app.js"></script>
 </body>
 
